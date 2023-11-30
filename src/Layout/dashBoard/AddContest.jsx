@@ -35,7 +35,7 @@ const AddContest = () => {
         console.log(contest);
 
 
-        fetch('http://localhost:5000/contests', {
+        fetch('https://contest-hub-server-nine.vercel.app/contests', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

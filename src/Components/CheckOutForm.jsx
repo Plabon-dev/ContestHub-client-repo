@@ -116,7 +116,7 @@ const CheckOutForm = ({contest}) => {
 
     const count = {participants : participants}
 
-    fetch(`http://localhost:5000/contests/count/${contest?._id}`, {
+    fetch(`https://contest-hub-server-nine.vercel.app/contests/count/${contest?._id}`, {
       method: 'PUT',
       headers: {
           'content-type': 'application/json'

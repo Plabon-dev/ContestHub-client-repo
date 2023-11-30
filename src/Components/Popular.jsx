@@ -4,7 +4,7 @@ import PopularCard from "./PopularCard";
 const Popular = () => {
     const [contest, setContest] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/contests')
+        fetch('https://contest-hub-server-nine.vercel.app/contests')
         .then(res => res.json())
         .then(data => {
             const approved = data.filter(item => item.status === "Approved");

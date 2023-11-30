@@ -11,7 +11,7 @@ const useCreator = () => {
         enabled: !loading,
         queryFn: async () => {
             console.log('asking or checking is creator', user)
-            const res = await axios.get(`http://localhost:5000/checkCreator/${user?.email}`);
+            const res = await axios.get(`https://contest-hub-server-nine.vercel.app/checkCreator/${user?.email}`);
             // console.log(res.data);
             return res.data?.creator;
         }

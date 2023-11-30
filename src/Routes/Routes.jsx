@@ -64,13 +64,13 @@ export const router = createBrowserRouter([
       {
         path: '/payment/:id',
         element: <Payment></Payment>,
-        loader: ({ params }) => fetch(`http://localhost:5000/contests/${params.id}`)
+        loader: ({ params }) => fetch(`https://contest-hub-server-nine.vercel.app/contests/${params.id}`)
 
       },
       {
         path: '/contestdetails/:id',
         element: <PrivetRoutes><ContestDetails></ContestDetails></PrivetRoutes>,
-        loader: ({ params }) => fetch(`http://localhost:5000/contests/${params.id}`)
+        loader: ({ params }) => fetch(`https://contest-hub-server-nine.vercel.app/contests/${params.id}`)
 
       },
 

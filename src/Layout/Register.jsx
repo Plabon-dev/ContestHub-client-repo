@@ -33,7 +33,7 @@ const Register = () => {
                             image: data?.photo
                         }
                         console.log(userInfo);
-                        fetch('http://localhost:5000/users', {
+                        fetch('https://contest-hub-server-nine.vercel.app/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'
@@ -60,7 +60,7 @@ const Register = () => {
                     image: result.user?.photoURL
 
                 }
-                fetch('http://localhost:5000/users', {
+                fetch('https://contest-hub-server-nine.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

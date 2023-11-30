@@ -86,7 +86,7 @@ const MyCreatedContest = () => {
         console.log(contest);
 
          // send data to the server
-         fetch(`http://localhost:5000/contests/${_id}`, {
+         fetch(`https://contest-hub-server-nine.vercel.app/contests/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
