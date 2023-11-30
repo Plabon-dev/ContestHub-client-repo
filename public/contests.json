@@ -1,0 +1,160 @@
+[
+    {
+      "id": 1,
+      "name": "Graphic Design Challenge",
+      "image": "https://images.pexels.com/photos/1601773/pexels-photo-1601773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Create visually stunning graphics that convey a specific theme or message!",
+      "participants": 120,
+      "tags": "Design",
+      "deadline": "2023-12-15",
+      "creator": "Alex Turner",
+      "status": "Approved",
+      "instruction": "Submit your graphic design in a standard image format. Include a short description of your design concept."
+    },
+    {
+      "id": 2,
+      "name": "CodeFest 2023",
+      "image": "https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Showcase your coding skills in this annual coding festival!",
+      "participants": 180,
+      "tags": "Coding",
+      "deadline": "2023-12-20",
+      "creator": "Sophie Johnson",
+      "status": "Pending",
+      "instruction": "Submit your code via a version control system (e.g., GitHub). Provide documentation for your code."
+    },
+    {
+      "id": 3,
+      "name": "Creative Writing Contest",
+      "image": "https://c0.wallpaperflare.com/preview/181/626/366/feather-filler-poetry-poetic.jpg",
+      "description": "Craft compelling stories, poems, or essays that captivate the reader!",
+      "participants": 150,
+      "tags": "Writing",
+      "deadline": "2023-12-18",
+      "creator": "Michael Smith",
+      "status": "Approved",
+      "instruction": "Submit your written piece in a standard document format. Ensure it adheres to the specified word count."
+    },
+    {
+      "id": 4,
+      "name": "Virtual Gaming Tournament",
+      "image": "https://r4.wallpaperflare.com/wallpaper/1/398/339/elden-ring-landscape-game-art-video-game-art-video-games-hd-wallpaper-078f02646fe5bffa3f62747121a19735.jpg",
+      "description": "Compete against players worldwide in this thrilling virtual gaming tournament!",
+      "participants": 200,
+      "tags": "Gaming",
+      "deadline": "2023-12-22",
+      "creator": "Daniel Miller",
+      "status": "Approved",
+      "instruction": "Submit your gaming performance video or streaming link. Include your in-game username."
+    },
+    {
+      "id": 5,
+      "name": "Entrepreneurship Challenge",
+      "image": "https://images.pexels.com/photos/1181292/pexels-photo-1181292.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "description": "Pitch innovative business ideas and solutions to a panel of experts!",
+      "participants": 100,
+      "tags": "Business",
+      "deadline": "2023-12-16",
+      "creator": "Olivia Taylor",
+      "status": "Approved",
+      "instruction": "Submit your business pitch document. Clearly outline your business idea, target audience, and revenue model."
+    },
+    {
+      "id": 6,
+      "name": "Medical Research Symposium",
+      "image": "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Present groundbreaking medical research findings and advancements!",
+      "participants": 90,
+      "tags": "Medical",
+      "deadline": "2023-12-25",
+      "creator": "Eva Davis",
+      "status": "Approved",
+      "instruction": "Submit your research paper in a standard document format. Include detailed findings and methodology."
+    },
+    {
+      "id": 7,
+      "name": "Photography Showcase",
+      "image": "https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Display your photography skills through captivating visual storytelling!",
+      "participants": 160,
+      "tags": "Photography",
+      "deadline": "2023-12-17",
+      "creator": "David Brown",
+      "status": "Approved",
+      "instruction": "Submit your high-resolution photographs in a standard image format. Include a brief description for each photo."
+    },
+    {
+      "id": 8,
+      "name": "Contemporary Art Exhibition",
+      "image": "https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Express your creativity through various forms of contemporary art!",
+      "participants": 110,
+      "tags": "Art",
+      "deadline": "2023-12-23",
+      "creator": "Emma Clark",
+      "status": "Pending",
+      "instruction": "Submit images or videos showcasing your contemporary art pieces. Include a brief artist statement."
+    },
+    {
+      "id": 9,
+      "name": "Tech Innovation Expo",
+      "image": "https://images.pexels.com/photos/343457/pexels-photo-343457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Showcase and demonstrate innovative technological solutions!",
+      "participants": 130,
+      "tags": "Technology",
+      "deadline": "2023-12-19",
+      "creator": "William Turner",
+      "status": "Approved",
+      "instruction": "Submit a demo video or presentation of your technological innovation. Clearly explain its functionality and impact."
+    },
+    
+    {
+      "id": 11,
+      "name": "Environmental Innovation Hackathon",
+      "image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Devise innovative solutions for a more sustainable and eco-friendly future!",
+      "participants": 145,
+      "tags": "Environment",
+      "deadline": "2023-12-24",
+      "creator": "James Anderson",
+      "status": "Approved",
+      "instruction": "Submit a detailed proposal or prototype of your environmental innovation. Highlight its impact on sustainability."
+    },
+    
+    {
+      "id": 13,
+      "name": "Innovative App Development Challenge",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Develop a groundbreaking mobile application with innovative features!",
+      "participants": 120,
+      "tags": "Technology",
+      "deadline": "2023-12-28",
+      "creator": "Ryan Garcia",
+      "status": "Approved",
+      "instruction": "Submit the source code and a demo video of your mobile application. Highlight its unique features and functionality."
+    },
+    {
+      "id": 14,
+      "name": "Fashion Design Runway",
+      "image": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Showcase your creativity in fashion design on the virtual runway!",
+      "participants": 180,
+      "tags": "Fashion",
+      "deadline": "2023-12-30",
+      "creator": "Isabella Martinez",
+      "status": "Pending",
+      "instruction": "Submit high-quality images or videos of your fashion designs. Include details on materials used and design inspiration."
+    },
+    {
+      "id": 15,
+      "name": "Music Composition Challenge",
+      "image": "https://images.pexels.com/photos/33597/guitar-classical-guitar-acoustic-guitar-electric-guitar.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Compose a captivating piece of music that showcases your musical talent!",
+      "participants": 150,
+      "tags": "Music",
+      "deadline": "2024-01-02",
+      "creator": "Liam Adams",
+      "status": "Approved",
+      "instruction": "Submit sheet music or a recording of your musical composition. Provide insights into the inspiration behind your composition."
+    }
+  ]
