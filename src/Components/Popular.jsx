@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import PopularCard from "./PopularCard";
 
+
+
 const Popular = () => {
     const [contest, setContest] = useState([]);
     useEffect(()=>{
@@ -19,9 +21,13 @@ const Popular = () => {
     return (
         <div className="py-14 bg-no-repeat bg-fixed bg-cover"  style={{backgroundImage: 'url(https://r4.wallpaperflare.com/wallpaper/339/179/774/digital-art-low-poly-artwork-minimalism-wallpaper-7836ad3840b03c28007c615ef852941a.jpg)'}}>
             <div className="">
+            <div className="">
             <h2 className="text-3xl font-semibold text-center">
             Join the Craze: Trending Contests You Can't Miss!
             </h2>
+          
+            </div>
+
             <p className="mt-8 w-9/12 mx-auto">Dive into the world of creativity and innovation with our handpicked selection of popular contests that are making waves! Whether you're a design virtuoso, coding maestro, or a wordsmith extraordinaire, there's a contest for everyone. Engage with a vibrant community, showcase your talent, and seize the opportunity to be recognized as a top contender. Check out these trending contests below and embark on a journey of inspiration, skill, and excitement!</p>
             </div>
 

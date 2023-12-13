@@ -1,6 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import useAxiosPublic from "../hooks/useAxiosPublic";
 import WinnerCard from "./WinnerCard";
+import Cup2 from '../../public/Cup2.json'
+import Lottie from "lottie-react";
 
 const Winners = () => {
 
@@ -26,7 +28,10 @@ const Winners = () => {
                 <h2 className="text-3xl font-semibold text-center">
                     Triumphs Unveiled: Meet Our Contest Champions!
                 </h2>
-                <h2 className="w-9/12 mx-auto mt-8">Embark on a journey of excellence as we proudly present the exceptional winners of our latest contests. These brilliant minds have not only demonstrated exceptional skills but have also conquered challenges with unparalleled creativity. Join us in celebrating their achievements and get inspired to showcase your talent in our ongoing contests. Explore the innovation, witness the victories, and be part of the next wave of champions on ContestHub</h2>
+
+                <h2 className="w-9/12 mx-auto mt-8">Embark on a journey of excellence as we proudly present the exceptional winners of our latest contests. These brilliant minds have not only demonstrated exceptional skills but have also conquered challenges with unparalleled creativity.</h2>
+                <Lottie className="h-48" animationData={Cup2} loop={true} />
+
 
                 <div className="grid grid-cols-1 md:grid-cols-2 place-content-center mt-12 gap-8 w-10/12 mx-auto">
 

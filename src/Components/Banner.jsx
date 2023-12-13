@@ -3,6 +3,8 @@ import useContest from "../hooks/useContest";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Lottie from "lottie-react";
+import Cup from "../../public/Cup.json"
 
 
 
@@ -32,11 +34,10 @@ const Banner = () => {
 
                     </div>
                     <div className="max-w-md">
-                        <h1 className="mb-5 md:text-2xl text-lg font-semibold"><span className="text-[#5686b1] font-bold md:text-3xl text-xl">ContestHub</span> <br /> Igniting Ideas, Fostering Innovation, Celebrating Talent!</h1>
+                    <Lottie className="h-48" animationData={Cup} loop={true} />
+                        <h1 className="mb-5 md:text-2xl text-lg font-semibold"><span className="text-[#c66e95] font-bold md:text-3xl text-xl">ContestHub</span> <br /> Igniting Ideas, Fostering Innovation, Celebrating Talent!</h1>
                         <div className="mb-3">
-                            <div data-aos="fade-down"
-                                data-aos-easing="linear"
-                                data-aos-duration="1500" className="">
+                            <div data-aos="zoom-in" className="">
                                 <form onSubmit={handleSearch} className="relative mb-4 flex w-full flex-wrap items-stretch">
 
                                     <input name="search"
@@ -55,7 +56,7 @@ const Banner = () => {
                                         <table className="table table-zebra w-full bg-gradient-to-r from-[#bcd3db] to-[#3f4e5c] text-black">
 
                                             <tbody>
-                                                {contests.map((contest, index) => (
+                                                {contests.map((contest) => (
                                                     <tr key={contest?._id}>
 
                                                         <td>{contest.name}</td>

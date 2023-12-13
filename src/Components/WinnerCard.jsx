@@ -2,10 +2,10 @@
 const WinnerCard = ({ winner }) => {
     return (
         <div>
-            <div className="group relative block overflow-hidden shadow-xl">
+            <div className="group relative block overflow-hidden shadow-2xl">
 
 
-                {winner && winner?.image ? <div className=""><img title="Profile" className="w-11/12 md:w-8/12 md:h-96 mb-4 mx-auto rounded-full object-cover" src={winner?.image} alt="" /></div> :
+                {winner && winner?.image ? <div className=""><img title="Profile" className="w-11/12 md:w-8/12 h-72  md:h-80 lg:h-[400px] mb-4 mx-auto rounded-full object-cover" src={winner?.image} alt="" /></div> :
                     <div>
                         {
                             <div><img title="Profile" className="w-8/12 mb-4 mx-auto rounded-full object-cover" src="https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg" alt="" /></div>
