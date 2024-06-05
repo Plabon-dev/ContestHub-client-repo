@@ -58,8 +58,8 @@ const Timeline = () => {
                 <h2 className="text-center w-9/12 mx-auto">Welcome to our Contest Timeline Hub, where creativity meets chronology! Explore the fascinating journey of contests on our platform through an interactive timeline. From the inception of captivating ideas to the triumphant declaration of winners, witness every milestone that shapes the dynamic world of innovation. Dive into the timeline, filter by tags, and discover the rich history of contests that have sparked inspiration and talent across diverse domains</h2>
 
 
-                <div className="overflow-x-auto mt-8">
-                    <table className="table table-zebra w-full font-semibold text-xl">
+                <div className="overflow-x-auto mt-8 ">
+                    <table className="table table-zebra w-full font-semibold text-xs md:text-lg">
                         {/* head */}
                         <thead>
                             <tr className="font-semibold text-xl">

@@ -23,11 +23,11 @@ const DetailsCard = ({ contest }) => {
 
     return (
         <div>
-            <div className="card lg:card-side bg-base-100 shadow-2xl w-10/12 mx-auto p-10  flex">
-                <figure className="flex-1 h-[420px]"><img className="h-full object-cover" src={contest?.image} alt="Album" /></figure>
+            <div className="card lg:card-side bg-base-100 shadow-2xl w-10/12 mx-auto p-0 md:p-10  flex">
+                <figure className="flex-1 h-[420px]"><img className="h-96 md:h-full object-cover" src={contest?.image} alt="Album" /></figure>
                 <div className="card-body flex-1">
-                    <h2 className="text-center md:text-left  text-[#aa454a] font-semibold text-3xl md:text-2xl">{contest?.name}</h2>
-                    <div className="mt-4  text-center md:text-left font-semibold">
+                    <h2 className="text-center md:text-left  text-[#aa454a] font-semibold text-3xl md:text-2xl sm:text-lg">{contest?.name}</h2>
+                    <div className="mt-4 md:text-left font-semibold text-sm md:text-base lg:text-lg">
                         <p>Participants: {contest?.participants}</p>
                         <p>Contest Type: {contest?.tags}</p>
 
@@ -38,7 +38,7 @@ const DetailsCard = ({ contest }) => {
                     </div>
                     <h2 className="text-center md:text-left text-[#aa454a] font-semibold text-2xl md:text-xl ">Prize Money: ${contest?.prize}</h2>
                     <div className="card-actions justify-center md:justify-end">
-                        <Link to={`/payment/${contest?._id}`} className="btn btn-block hover:text-[#3c4251] text-[#cecdc9] bg-[#3c4251]">Register</Link>
+                        <Link to={`/payment/${contest?._id}`} className="btn btn-block hover:text-[#3c4251] text-[#cecdc9] bg-[#3c4251] mt-8">Register</Link>
                     </div>
                 </div>
             </div>

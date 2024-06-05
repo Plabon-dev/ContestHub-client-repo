@@ -1,19 +1,16 @@
 .custom-cursor {
-    width: 20px;
-    height: 20px;
-    background-color: transparent; /* Set the initial background to transparent */
-   /* Add a border to create a ring effect */
-    border-radius: 50%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    z-index: 999;
-    cursor: none; /* Hide the system cursor */
-    transition: all 200ms ease;
-  
-    /* Custom hover effect */
-   
-    
-  }
+  width: 20px;
+  height: 20px;
+  background-color: transparent; /* Set the initial background to transparent */
+  border-radius: 50%; /* Make the cursor circular */
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  cursor: none; /* Hide the system cursor */
+  transition: all 200ms ease;
+
+  /* Custom hover effect */
+}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Card = ({ item }) => {
     return (
         <div>
-            <div className="group relative block bg-black">
+            <div className="group relative block bg-black ">
                 <img
                     alt="Contest"
                     src={item?.image}

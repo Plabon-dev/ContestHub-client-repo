@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const PopularCard = ({ contest }) => {
     return (
         <div>
-            <div className="group relative block h-64 sm:h-80 lg:h-96">
+            <div className="group relative block h-80 lg:h-96 xl:h-[500px]">
                 <span className="absolute inset-0 border-2 border-dashed border-black"></span>
             
 
@@ -21,17 +21,17 @@ const PopularCard = ({ contest }) => {
 
 
                         <h2 className="mt-4 text-xl text-[#cecdc9] font-semibold sm:text-2xl">{contest.name}</h2>
-                        <h3 className="mt-2 text-lg text-[#5b82a1] font-semibold">Participants: {contest.participants}</h3>
+                        <h3 className="mt-2 text-lg text-pink-500 font-semibold">Participants: {contest.participants}</h3>
 
                     </div>
 
                     <div
                         className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
                     >
-                        <h3 className="mt-4 text-xl  font-semibold sm:text-2xl">{contest.name}</h3>
-                        <h3 className="mt-2 text-xl font-medium">Participants: {contest.participants}</h3>
+                        <h3 className="mt-4 text-base md:text-xl  font-semibold sm:text-2xl">{contest.name}</h3>
+                        <h3 className="mt-2 text-base md:text-xl font-medium">Participants: {contest.participants}</h3>
 
-                        <p className="mt-4 text-sm sm:text-base">
+                        <p className="mt-4 text-sm md:text-base">
                             <span className="font-medium">Description:</span> {contest.description}
                         </p>
                         <div className="flex justify-end">
